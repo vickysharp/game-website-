@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #161b22;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.admin-btn, .home-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #238636;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.admin-panel {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #238636;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2ea043;
+}
+
+.game-card {
+  background: #161b22;
+  margin: 20px auto;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 10px;
+}
